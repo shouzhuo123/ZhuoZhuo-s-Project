@@ -307,6 +307,190 @@
                "path" : "/user/hand/right/input/joystick"
             }
          ]
+      },
+      "/actions/quest3": {
+        "chords": [],
+        "haptics": [
+          {
+            "output": "/actions/quest3/out/haptic",
+            "path": "/user/hand/left/output/haptic"
+          },
+          {
+            "output": "/actions/quest3/out/haptic",
+            "path": "/user/hand/right/output/haptic"
+          }
+        ],
+        "poses": [
+          {
+            "output": "/actions/quest3/in/pose",
+            "path": "/user/hand/left/pose/raw"
+          },
+          {
+            "output": "/actions/quest3/in/pose",
+            "path": "/user/hand/right/pose/raw"
+          }
+        ],
+        "sources": [
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/trigger"
+              }
+            },
+            "mode": "button",
+            "parameters": {
+              "click_activate_threshold": "0.5",
+              "click_deactivate_threshold": "0.4",
+              "force_input": "value"
+            },
+            "path": "/user/hand/left/input/trigger"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/trigger"
+              }
+            },
+            "mode": "button",
+            "parameters": {
+              "click_activate_threshold": "0.5",
+              "click_deactivate_threshold": "0.4",
+              "force_input": "value"
+            },
+            "path": "/user/hand/right/input/trigger"
+          },
+          {
+            "inputs": {
+              "pull": {
+                "output": "/actions/quest3/in/triggervalue"
+              }
+            },
+            "mode": "trigger",
+            "path": "/user/hand/left/input/trigger"
+          },
+          {
+            "inputs": {
+              "pull": {
+                "output": "/actions/quest3/in/triggervalue"
+              }
+            },
+            "mode": "trigger",
+            "path": "/user/hand/right/input/trigger"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/grip"
+              }
+            },
+            "mode": "button",
+            "parameters": {
+              "click_activate_threshold": "0.5",
+              "click_deactivate_threshold": "0.4"
+            },
+            "path": "/user/hand/left/input/grip"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/grip"
+              }
+            },
+            "mode": "button",
+            "parameters": {
+              "click_activate_threshold": "0.5",
+              "click_deactivate_threshold": "0.4"
+            },
+            "path": "/user/hand/right/input/grip"
+          },
+          {
+            "inputs": {
+              "pull": {
+                "output": "/actions/quest3/in/gripvalue"
+              }
+            },
+            "mode": "trigger",
+            "path": "/user/hand/left/input/grip"
+          },
+          {
+            "inputs": {
+              "pull": {
+                "output": "/actions/quest3/in/gripvalue"
+              }
+            },
+            "mode": "trigger",
+            "path": "/user/hand/right/input/grip"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/primarybutton"
+              }
+            },
+            "mode": "button",
+            "path": "/user/hand/left/input/x"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/primarybutton"
+              }
+            },
+            "mode": "button",
+            "path": "/user/hand/right/input/a"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/secondarybutton"
+              }
+            },
+            "mode": "button",
+            "path": "/user/hand/left/input/y"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/secondarybutton"
+              }
+            },
+            "mode": "button",
+            "path": "/user/hand/right/input/b"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/thumbstickclick"
+              },
+              "position": {
+                "output": "/actions/quest3/in/thumbstick"
+              }
+            },
+            "mode": "joystick",
+            "path": "/user/hand/left/input/joystick"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/thumbstickclick"
+              },
+              "position": {
+                "output": "/actions/quest3/in/thumbstick"
+              }
+            },
+            "mode": "joystick",
+            "path": "/user/hand/right/input/joystick"
+          },
+          {
+            "inputs": {
+              "click": {
+                "output": "/actions/quest3/in/menubutton"
+              }
+            },
+            "mode": "button",
+            "path": "/user/hand/left/input/menu"
+          }
+        ]
       }
    },
    "controller_type" : "oculus_touch",
