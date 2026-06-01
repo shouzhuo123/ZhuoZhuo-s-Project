@@ -1,0 +1,80 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Unity YAML files - consistent line endings
+*.asset linguist-language=YAML
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML
+
+# Unity meta files
+*.meta text=auto
+
+# C# source files
+*.cs text=auto eol=lf
+
+# Shader files
+*.shader text=auto eol=lf
+*.cginc text=auto eol=lf
+*.hlsl text=auto eol=lf
+
+# Force LF for these files
+*.json text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tga binary
+*.tiff binary
+*.tif binary
+*.exr binary
+*.hdr binary
+*.dds binary
+*.psd binary
+*.ai binary
+*.svg binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.aiff binary
+*.flac binary
+*.mat binary
+*.anim binary
+*.controller binary
+*.prefab binary
+*.unity binary
+*.asset binary
+*.db binary
+*.db3 binary
+
+# Archive files
+*.zip binary
+*.rar binary
+*.7z binary
+*.tar binary
+*.gz binary
+
+# 3D Models
+*.fbx binary
+*.obj binary
+*.max binary
+*.blend binary
+*.ma binary
+*.mb binary
+*.3ds binary
+*.dae binary
+
+# Documents
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary

@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.zhuozhuosproject.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\ZhenZhen\\Documents\\UnityProjects\\ZhuoZhuo's Project\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "ZhuoZhuo's Project [Testing]"
+        }
+      }
+    }
+  ]
+}

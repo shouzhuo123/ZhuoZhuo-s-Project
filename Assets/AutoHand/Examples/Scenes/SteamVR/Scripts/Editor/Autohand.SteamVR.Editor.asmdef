@@ -1,0 +1,19 @@
+{
+    "name": "Autohand.SteamVR.Editor",
+    "rootNamespace": "",
+    "references": [
+        "AutoHandAssembly",
+        "Autohand.SteamVR"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

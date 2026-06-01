@@ -1,0 +1,61 @@
+# 这份模板基于 GitHub 官方标准 Unity .gitignore
+
+# Unity 核心忽略目录
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# 内存捕获（文件可能极大）
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# 自动生成的项目和解决方案文件 (VS / Rider / VSCode 等)
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+.vscode/
+
+# Unity3D 生成的元数据文件 (仅限崩溃报告和调试文件)
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# 构建出来的安装包 (避免把几十上百兆的包传到 Git)
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.zip
+
+# Crashlytics 生成的文件
+crashlytics-build.properties
+
+# 操作系统自动生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

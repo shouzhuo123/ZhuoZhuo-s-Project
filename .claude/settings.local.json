@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx unity-mcp-cli *)",
+      "WebFetch(domain:earnest-robot.gitbook.io)",
+      "WebSearch",
+      "Bash(curl -s \"https://earnest-robot.gitbook.io/auto-hand-docs\")",
+      "Bash(curl -s \"https://earnest-robot.gitbook.io/auto-hand-docs/\")",
+      "Bash(curl -s \"https://api.gitbook.com/v1/content/eJxzj93P0U9TTLbQ1dHNGti9vzYXSLbQTqNTz9OSO8gAAXWFCQ\")",
+      "Bash(wc *)",
+      "Bash(unity-mcp-cli run-system-tool *)"
+    ]
+  }
+}
